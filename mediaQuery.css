@@ -12,10 +12,10 @@
 @media(max-width: 1300px)
 {
     #navigationList{
-        visibility: visible;
+        visibility: hidden;
     }
 
     #smallScreenNav{
-        visibility: hidden;
+        visibility: visible;
     }
 }
