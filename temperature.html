@@ -11,52 +11,68 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
 </head>
 <body>
 
     <body>
-        <nav id="navigationlist">
-            <ul class="nav">
+        <nav id="navigationlist" class="navbar navbar-expand-lg">
+            <div class="nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="temeperature.html">Temperatures at Different Latitudes</a>
+                     <a class="nav-link active" href="temperature.html">Temperature at Different Latitudes</a>
                 </li>
-            </ul>
-        </nav>
+                
+            </div>
     
-        <nav id="navigationlist">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="Comparisons.html">Comparisons</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Data.html">Data</a>
-                </li>
-            </ul>
-        </nav>
-    
-        <nav id="DropDown List">
-                <div class="brn-group justify-content-end">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Landing Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="brn-group justify-content-end">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-expanded="false">
                     Plots
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <button class="dropdown-item" href="temperature.html">Temperatures at Different Latitudes</button>
-                            <button class="dropdown-item" href="humidity.html">Humidity at Different Latitudes</button>
-                            <button class="dropdown-item" href="cloudiness.html">Cloudiness at Different Latitudes</button>
-                            <button class="dropdown-item" href="windspeed.html">Wind Speed at Different Latitudes</button>
-                        </div>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="temperature.html">Temperatures at Different Latitudes</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity at Different Latitudes</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness at Different Latitudes</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed at Different Latitudes</a>
                 </div>
+            </div>
+            
+            <div class="brn-group justify-content-end">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-expanded="false">
+                    North versus South
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="ns_temperature.html">Temperatures North vs. South</a>
+                    <a class="dropdown-item" href="ns_humidity.html">Humidity North vs. South</a>
+                    <a class="dropdown-item" href="ns_cloudiness.html">Cloudiness North vs. South</a>
+                    <a class="dropdown-item" href="ns_windspeed.html">Wind Speed North vs. South</a>
+                </div>
+            </div>
         </nav>
-    
+
         </div class="container">
             <div class="row">
                 <div class="col-md-8">
                     This chart shows the relation between latitude and temperature. There appears to be a curvilinear relationship between latitude 
-                    and temperature. It should be noted that northern cities (latitudes between 40-80 especially), 
+                    and temperature. It should be noted that northern cities (specifically for latitudes between 40-80), 
                     had very cold temperaures in January 2022.
              
                 </div>
-            </div>
+
         </div>
     <section>
         <figure>
