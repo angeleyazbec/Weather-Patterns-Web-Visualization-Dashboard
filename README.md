@@ -1,8 +1,9 @@
 # Web Visualization Dashboard
 
-Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
+Utilized data acquired from the OpenWeather Maps API and Google Places API in a previous assignment.
+GitHub link: https://github.com/angeleyazbec/Ideal-Vacation-Determined-by-APIs
 
-https://angeleyazbec.github.io/Weather-Patterns-Web-Visualization-Dashboard/
+Website link: https://angeleyazbec.github.io/Weather-Patterns-Web-Visualization-Dashboard/
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
