@@ -43,16 +43,4 @@ In building this dashboard, we'll create individual pages for each plot and a me
 Small screen:
 ![nav menu small screen](Images/nav-sm.png)
 
-## Rubric
 
-[Unit 11 Rubric - Web Design Homework - Web Visualization Dashboard](https://docs.google.com/document/d/16RJehl9qVOxdj7o7hUwvdlsoyrA_-kaoB8CGwr9LX_Y/edit?usp=sharing)
-
-- - -
-
-## References
-
-OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
